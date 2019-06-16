@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.background{
+	width: 100%;
+}
+
+.barra-superior{
+	min-height: 7rem;
+}
+
+.logo{
+	width: 20%;
+	margin-top: 5%;
+	margin-left: 3%;
+}
+
+.Boton{
+	float: right;
+	margin-top: 5%;
+	margin-right: 5%;
+}
+
+
+.left-sidebar{
+	position: fixed;
+	top: 30%;
+	z-index: 999;
+}
+
+.left-sidebar ul{
+	border: none;
+}
+
+.left-sidebar i.fa{
+	padding: 8px;
+	font-size: 25px;
+	color: beige;
+}
+
+
+.left-sidebar li{
+	width: 80px;
+	transition: 5s;
+	
+}
+.left-sidebar li:nth-child(1){
+	background: #3b5999;
+	
+}
+	
+
+.left-sidebar li:nth-child(2){
+	background: #55acee;
+	
+}
+.left-sidebar li:nth-child(3){
+	background: #e4405f;
+	
+}
+.left-sidebar li:nth-child(4){
+	background: #bd081c;
+	
+}
+.left-sidebar li:nth-child(5){
+	background: #00E676;
+	
+}
+.left-sidebar li:nth-child(6){
+	background: #cd201f;
+	
+}
+
+.left-sidebar li:hover{
+	width: 150px;
+}
+
+
+.box{
+	height: 600px;
+	margin-top: 30%;
+	
+}
+
+
+.container{
+	margin-top: 30%;
+	z-index: 999px;
+}
+
+
+
+
+
+
+
+
+
+
