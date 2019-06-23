@@ -1,22 +1,31 @@
 @charset "utf-8";
 /* CSS Document */
+.body{
+	background-color: light-blue lighten-3;
+}
 
 
 .background{
+	
 	width: 100%;
+	filter:saturate(50%);
 }
 
 .barra-superior{
+	
+	width: 100%;
 	min-height: 7rem;
 }
 
 .logo{
+	
 	width: 20%;
 	margin-top: 5%;
 	margin-left: 3%;
 }
 
 .Boton{
+	
 	float: right;
 	margin-top: 5%;
 	margin-right: 5%;
@@ -88,9 +97,76 @@
 	margin-top: 30%;
 	z-index: 999px;
 }
+.imagenes-viaje{
+	top: 50%;
+	margin: 0 auto;
+}
+.imagen{
+	position: absolute;
+	width: 30%;
+	top: 31%;
+	left:7%; 
+	
+
+}
+.imagen2{
+	position: absolute;
+	width: 30%;
+	top: 95%;
+	left:7%; 
+	
+
+}
+.imagen3{
+	position: absolute;
+	width:30%;
+	top: 31%;
+	left:38%; 
+	
+
+}
 
 
+.imagen4{
+	position: absolute;
+	width:30%;
+	top: 31%;
+	left:69%; 
+	
 
+}
+
+.imagen5{
+	position: absolute;
+	width:30%;
+	top: 80%;
+	left:69%; 
+	
+
+}
+
+.container-color{
+	
+	background-color: red;
+	height: 300px;
+	top: 10%;
+	
+	
+}
+
+
+.imagen7{
+	position: absolute;
+	width: 15%;
+	left: 20%;
+	top: 180%;
+}
+
+div[class*="bloque"]{
+  height:10%;
+	left: 20%;
+	
+}
 
 
 
