@@ -33,7 +33,7 @@
 
 
 .left-sidebar{
-	position: fixed;
+	position: absolute;
 	top: 30%;
 	z-index: 999;
 }
@@ -155,22 +155,126 @@
 }
 
 
-.imagen7{
+
+
+.bauhaus{
 	position: absolute;
-	width: 15%;
-	left: 20%;
 	top: 180%;
+	left: 20%;
 }
 
-div[class*="bloque"]{
-  height:10%;
+.cuadrado img{
+	
+	width: 20%;
+	left: 20px;
+	top: 20px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.cuadrado p{
+	margin-top: 15%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 12px;
+}
+.cuadrado{
+	position: absolute;
+  width: 50%;
+  height: 70%;
+  background-color: white;
+  display: inline-block;
+ top: 180%;
+	left: 7%;
+}
+
+.cuadro-2{
+	position: absolute;
+	width: 12%;
+	height: 6%;
+	background-color: #BFBFBF;
+	top: 188%;
 	left: 20%;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cuadro-3{
+	position: absolute;
+	width: 15%;
+	height:6%;
+	background-color: #BFBFBF;
+	top: 188%;
+	left: 33%;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.comentario{
+	
+	
+	width: 100%;
+	max-width: 1000px;
+}
+
+
+
+.cuadrado-autor{
+	position: absolute;
+  width: 30%;
+  height: 60%;
+  background-color: white;
+  display: inline-block;
+ top: 180%;
+	left: 60%;
+}
+
+.cuadrado-autor img{
+	
+	width: 30%;
+	left: 10%;
+	top: 10%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.cuadrado-autor h4{
+	position: absolute;
+	left: 40%;
+	top: 1%;
+}
+
+.cuadrado-autor p{
+	
+	margin-top: 15%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 12px;
+	
+}
+
+.comentario01{
+	position: absolute;
+	width: 100%;
+	max-height: 1000px;
+	
 	
 }
 
 
 
+@media only screen and (max-width: 1200px) {
 
-
-
-
+	
+	
+}
